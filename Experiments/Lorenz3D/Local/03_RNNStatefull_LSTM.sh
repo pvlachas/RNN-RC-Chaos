@@ -45,7 +45,6 @@ python3 RUN.py rnn_statefull \
 --num_test_ICS 2 \
 --reference_train_time 1 \
 --buffer_train_time 0.2 \
---noise_level 0 \
 --retrain 0
 done
 done

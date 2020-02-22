@@ -21,7 +21,6 @@ python3 RUN.py esn \
 --regularization 0.0 \
 --dynamics_length 200 \
 --iterative_prediction_length 500 \
---noise_level 0 \
 --num_test_ICS 2 \
 --solver auto \
 --number_of_epochs 1000000 \

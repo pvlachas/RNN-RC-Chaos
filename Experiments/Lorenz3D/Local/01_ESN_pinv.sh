@@ -21,10 +21,14 @@ python3 RUN.py esn \
 --regularization 0.0 \
 --dynamics_length 200 \
 --iterative_prediction_length 500 \
---noise_level 0 \
 --num_test_ICS 1 \
 --solver pinv \
 --number_of_epochs 1000000 \
 --learning_rate 0.001 \
 --reference_train_time 10 \
 --buffer_train_time 0.5
+
+
+
+
+

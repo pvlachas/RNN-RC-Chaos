@@ -2,7 +2,7 @@
 
 cd ../../../Methods
 
-for RDIM in 1
+for RDIM in 512
 do
 for SS in 200
 do
@@ -41,7 +41,6 @@ python3 RUN.py rnn_statefull \
 --train_val_ratio 0.8 \
 --iterative_prediction_length 1000 \
 --num_test_ICS 2 \
---noise_level 2 \
 --retrain 0
 done
 done

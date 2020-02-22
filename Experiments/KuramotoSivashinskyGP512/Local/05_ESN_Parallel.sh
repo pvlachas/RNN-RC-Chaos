@@ -9,7 +9,7 @@ mpiexec -n 3 python3 RUN.py esn_parallel \
 --write_to_log 1 \
 --N 100000 \
 --N_used 10000 \
---RDIM 3 \
+--RDIM 512 \
 --scaler Standard \
 --approx_reservoir_size 900 \
 --degree 9 \

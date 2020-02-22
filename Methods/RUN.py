@@ -28,6 +28,9 @@ def getModel(params):
 	elif params["model_name"] == "rnn_statefull_parallel":
 		import rnn_statefull_parallel as model
 		return model.rnn_statefull_parallel(params)
+	elif params["model_name"] == "mlp":
+		import mlp as model
+		return model.mlp(params)
 	else:
 		raise ValueError("model not found.")
 

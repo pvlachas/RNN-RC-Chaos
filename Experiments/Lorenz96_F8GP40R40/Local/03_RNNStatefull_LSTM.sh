@@ -17,12 +17,13 @@ python3 RUN.py rnn_statefull \
 --N 100000 \
 --N_used 10000 \
 --RDIM $RDIM \
---noise_level 1 \
+--noise_level 10 \
 --rnn_cell_type lstm \
 --unitary_cplex 1 \
 --unitary_capacity 2 \
 --regularization 0 \
---keep_prob 1.0 \
+--zoneout_keep_prob 1.0 \
+--dropout_keep_prob 1.0 \
 --scaler standard \
 --initializer xavier \
 --sequence_length $SL \
@@ -46,35 +47,3 @@ done
 done
 done
 
-
-# python3 RUN.py rnn_statefull \
-# --mode all \
-# --display_output 1 \
-# --system_name Lorenz3D \
-# --write_to_log 0 \
-# --N 100000 \
-# --N_used 5000 \
-# 
-# --rnn_cell_type lstm \
-# --unitary_cplex 1 \
-# --unitary_capacity 2 \
-# --regularization 0.0 \
-# --scaler standard \
-# --initializer xavier \
-# --sequence_length 8 \
-# --hidden_state_propagation_length 300 \
-# --prediction_length 1 \
-# --rnn_activation_str tanh \
-# --rnn_num_layers 1 \
-# --rnn_size_layers 32 \
-# --subsample 1 \
-# --batch_size 32 \
-# --max_epochs 20 \
-# --num_rounds 10 \
-# --overfitting_patience 5 \
-# --training_min_epochs 1 \
-# --learning_rate 0.1 \
-# --train_val_ratio 0.8 \
-# --iterative_prediction_length 2000 \
-# --num_test_ICS 3 \
-# --retrain 0

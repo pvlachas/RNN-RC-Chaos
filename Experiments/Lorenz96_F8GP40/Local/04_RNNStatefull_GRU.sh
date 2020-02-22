@@ -14,7 +14,7 @@ do
 python3 RUN.py rnn_statefull \
 --mode all \
 --display_output 1 \
---system_name Lorenz96_F8GP40R40 \
+--system_name Lorenz96_F8GP40 \
 --write_to_log 1 \
 --N 100000 \
 --N_used 40000 \

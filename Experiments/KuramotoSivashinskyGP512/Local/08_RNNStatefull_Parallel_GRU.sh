@@ -9,7 +9,7 @@ mpiexec -n 3 python3 RUN.py rnn_statefull_parallel \
 --write_to_log 1 \
 --N 100000 \
 --N_used 10000 \
---RDIM 3 \
+--RDIM 512 \
 --rnn_cell_type gru \
 --unitary_cplex 1 \
 --unitary_capacity 2 \

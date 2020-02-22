@@ -11,7 +11,7 @@ do
 python3 RUN.py esn \
 --mode all \
 --display_output 1 \
---system_name Lorenz96_F8GP40 \
+--system_name Lorenz96_F10GP40 \
 --write_to_log 1 \
 --N 100000 \
 --N_used 10000 \
@@ -25,7 +25,7 @@ python3 RUN.py esn \
 --regularization 0.0 \
 --dynamics_length 1000 \
 --iterative_prediction_length 100 \
---num_test_ICS 10
+--num_test_ICS 2
 done
 done
 done

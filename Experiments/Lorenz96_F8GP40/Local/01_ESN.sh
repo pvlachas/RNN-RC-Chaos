@@ -25,7 +25,7 @@ python3 RUN.py esn \
 --regularization 0.0 \
 --dynamics_length 1000 \
 --iterative_prediction_length 100 \
---num_test_ICS 10
+--num_test_ICS 2
 done
 done
 done

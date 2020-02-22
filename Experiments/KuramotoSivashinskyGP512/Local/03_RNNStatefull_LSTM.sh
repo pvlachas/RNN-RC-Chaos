@@ -18,7 +18,6 @@ python3 RUN.py rnn_statefull \
 --N 100000 \
 --N_used 10000 \
 --RDIM $RDIM \
---noise_level 1 \
 --rnn_cell_type lstm \
 --unitary_cplex 1 \
 --unitary_capacity 2 \
