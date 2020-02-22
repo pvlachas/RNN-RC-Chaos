@@ -18,6 +18,25 @@ Other required packages are: matplotlib, sklearn, psutil.
 - matplotlib, sklearn, psutil
 - mpi4py (parallel implementations)
 
+The packages can be installed as follows: you can create a virtual environment in Python3 with:
+```
+python3 -m venv venv-RNN-RC-Chaos
+
+```
+Then activate the virtual environment:
+```
+source venv-RNN-RC-Chaos/bin/activate
+```
+Install a version of tensorflow (paper was compiled with version 1.11, which may no longer be available), here we also tested a more recent verion 1.14, (apart from warnings the code should run fine):
+```
+pip install tensorflow==1.14.0
+```
+Install the rest of the required packages with:
+```
+pip3 install matplotlib sklearn psutil mpi4py
+```
+The code is ready to run, you can test the following demo.
+
 ## DATASETS
 
 The data to run a small demo are provided in the local ./Data folder

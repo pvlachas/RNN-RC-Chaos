@@ -22,7 +22,7 @@ mpiexec -n 3 python3 RUN.py rnn_statefull_parallel \
 --zoneout_keep_prob 0.995 \
 --prediction_length 6 \
 --rnn_num_layers 1 \
---rnn_size_layers 128 \
+--rnn_size_layers 1000 \
 --subsample 1 \
 --batch_size 32 \
 --max_epochs 100 \
