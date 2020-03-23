@@ -62,8 +62,9 @@ This is only a minimal version of the code under development in the CSE-lab.
 Please contact pvlachas@ethz.ch if you want to get informed, take a look at the latest version, with more features, models and capabilities.
 
 ### Relevant Publications
-[1] *Backpropagation Algorithms and Reservoir Computing in Recurrent Neural Networks for the Forecasting of Complex Spatiotemporal Dynamics*, Pantelis R. Vlachas, Jaideep Pathak, Brian R. Hunt, Themistoklis P. Sapsis, Michelle Girvan, Edward Ott, Petros Koumoutsakos
-Journal of Neural Networks (accepted)
+[1] P.R. Vlachas, J. Pathak, B.R. Hunt et al., *Backpropagation algorithms and
+Reservoir Computing in Recurrent Neural Networks for the forecasting of complex spatiotemporal
+dynamics.* Neural Networks (2020), doi: https://doi.org/10.1016/j.neunet.2020.02.016.
 
 [2] *Model-Free Prediction of Large Spatiotemporally Chaotic Systems from Data: A Reservoir Computing Approach*, Jaideep Pathak, Brian Hunt, Michelle Girvan, Zhixin Lu, and Edward Ott
 Physical Review Letters 120 (2), 024102, 2018
