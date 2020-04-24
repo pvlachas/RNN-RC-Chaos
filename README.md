@@ -8,7 +8,7 @@ This project contains minimal implementations of RNN architectures trained with 
 - Multilayered perceptron (feedforward MLP) based on a windowing approach.
 
 Moreover, spatial parallelization of the aforementioned models are implemented according to [1].
-For implementation of the method to compute the Lyapunov spectrum, please refer to the repository[RNN-Lyapunov-Spectrum](https://github.com/pvlachas/RNN-Lyapunov-Spectrum).
+For implementation of the method to compute the Lyapunov spectrum, please refer to the repository [RNN-Lyapunov-Spectrum](https://github.com/pvlachas/RNN-Lyapunov-Spectrum).
 
 ## REQUIREMENTS
 
