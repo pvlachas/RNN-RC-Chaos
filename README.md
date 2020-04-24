@@ -10,7 +10,7 @@ This project contains minimal implementations of RNN architectures trained with 
 Moreover, spatial parallelization of the aforementioned models are implemented according to [1].
 For implementation of the method to compute the Lyapunov spectrum, please refer to the repository [RNN-Lyapunov-Spectrum](https://github.com/pvlachas/RNN-Lyapunov-Spectrum).
 
-## REQUIREMENTS
+## Code Requirements
 
 The code requires python 3.7.3, tensorflow 1.11.0
 Other required packages are: matplotlib, sklearn, psutil.
@@ -39,12 +39,12 @@ pip3 install matplotlib sklearn psutil mpi4py
 The code is ready to run, you can test the following demo.
 
 
-## DATASETS
+## Datasets
 
 The data to run a small demo are provided in the local ./Data folder
 
 
-## DEMO
+## Demo
 
 In order to run the demo in a local cluster, you can navigate to the Experiments folder, and select your desired application, e.g. Lorenz3D. There are scripts for each model. For example, you can ran a Reservoir Computer (also called Echo state network) with the following commands:
 ```
@@ -66,7 +66,7 @@ This is only a minimal version of the code under development in the CSE-lab.
 Please contact pvlachas@ethz.ch if you want to get informed, take a look at the latest version, with more features, models and capabilities.
 
 
-### Relevant Publications
+## Relevant Publications
 
 [1] P.R. Vlachas, J. Pathak, B.R. Hunt et al., *Backpropagation algorithms and
 Reservoir Computing in Recurrent Neural Networks for the forecasting of complex spatiotemporal
