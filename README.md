@@ -8,6 +8,7 @@ This project contains minimal implementations of RNN architectures trained with 
 - Multilayered perceptron (feedforward MLP) based on a windowing approach.
 
 Moreover, spatial parallelization of the aforementioned models are implemented according to [1].
+For implementation of the method to compute the Lyapunov spectrum, please refer to the repository[RNN-Lyapunov-Spectrum](https://github.com/pvlachas/RNN-Lyapunov-Spectrum).
 
 ## REQUIREMENTS
 
@@ -37,9 +38,11 @@ pip3 install matplotlib sklearn psutil mpi4py
 ```
 The code is ready to run, you can test the following demo.
 
+
 ## DATASETS
 
 The data to run a small demo are provided in the local ./Data folder
+
 
 ## DEMO
 
@@ -56,12 +59,15 @@ bash 05_ESN_Parallel.sh
 After running the command, you will see at the terminal output the training/testing progress.
 You can then navigate to the folder ./Results/Lorenz3D and check the different outputs of each model.
 
+
 ## Note
 
 This is only a minimal version of the code under development in the CSE-lab.
 Please contact pvlachas@ethz.ch if you want to get informed, take a look at the latest version, with more features, models and capabilities.
 
+
 ### Relevant Publications
+
 [1] P.R. Vlachas, J. Pathak, B.R. Hunt et al., *Backpropagation algorithms and
 Reservoir Computing in Recurrent Neural Networks for the forecasting of complex spatiotemporal
 dynamics.* Neural Networks (2020), doi: https://doi.org/10.1016/j.neunet.2020.02.016.
