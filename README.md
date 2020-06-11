@@ -65,6 +65,9 @@ You can then navigate to the folder ./Results/Lorenz3D and check the different o
 This is only a minimal version of the code under development in the CSE-lab.
 Please contact pvlachas@ethz.ch if you want to get informed, take a look at the latest version, with more features, models and capabilities.
 
+## Acknowledgments
+
+This is joint work with Jaideep Pathak ([website](http://physics.umd.edu/~jpathak/), [scholar](https://scholar.google.com/citations?user=cevw0gkAAAAJ&hl=en)) 
 
 ## Relevant Publications
 
