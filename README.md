@@ -67,7 +67,12 @@ Please contact pvlachas@ethz.ch if you want to get informed, take a look at the 
 
 ## Acknowledgments
 
-This is joint work with Jaideep Pathak ([website](http://physics.umd.edu/~jpathak/), [scholar](https://scholar.google.com/citations?user=cevw0gkAAAAJ&hl=en)) 
+This is joint work with:
+- Jaideep Pathak ([website](http://physics.umd.edu/~jpathak/), [scholar](https://scholar.google.com/citations?user=cevw0gkAAAAJ&hl=en)) 
+- Brian R. Hunt ([website](http://www.math.umd.edu/~bhunt/), [scholar](https://scholar.google.com/citations?user=ten7UlMAAAAJ&hl=en))
+- Themis Sapsis ([website](http://sandlab.mit.edu/), [scholar](https://scholar.google.com/citations?user=QSPXIAQAAAAJ&hl=en))
+- Michelle Girvan ([website](https://sites.google.com/umd.edu/networks/home), [scholar](https://scholar.google.com/citations?user=npKBI-oAAAAJ&hl=el)) 
+- Petros Koumoutsakos ([website](https://www.cse-lab.ethz.ch/member/petros-koumoutsakos/), [scholar](https://scholar.google.ch/citations?user=IaDP3mkAAAAJ&hl=el&oi=ao)) 
 
 ## Relevant Publications
 
