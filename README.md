@@ -76,15 +76,15 @@ This is joint work with:
 - Petros Koumoutsakos ([website](https://www.cse-lab.ethz.ch/member/petros-koumoutsakos/), [scholar](https://scholar.google.ch/citations?user=IaDP3mkAAAAJ&hl=el&oi=ao)) 
 
 ## Relevant Publications
-
 [1] P.R. Vlachas, J. Pathak, B.R. Hunt et al., *Backpropagation algorithms and
 Reservoir Computing in Recurrent Neural Networks for the forecasting of complex spatiotemporal
-dynamics.* Neural Networks (2020), doi: https://doi.org/10.1016/j.neunet.2020.02.016.
+dynamics.*
+Neural Networks, 2020 (doi: https://doi.org/10.1016/j.neunet.2020.02.016.)
 
-[2] *Model-Free Prediction of Large Spatiotemporally Chaotic Systems from Data: A Reservoir Computing Approach*, Jaideep Pathak, Brian Hunt, Michelle Girvan, Zhixin Lu, and Edward Ott
+[2] J. Pathak, B.R. Hunt, M. Girvan, Z. Lu, and E. Ott, *Model-Free Prediction of Large Spatiotemporally Chaotic Systems from Data: A Reservoir Computing Approach.*
 Physical Review Letters 120 (2), 024102, 2018
 
-[3] *Data-driven forecasting of high-dimensional chaotic systems with long short-term memory networks*, Pantelis R. Vlachas, Wonmin Byeon, Zhong Y. Wan, Themistoklis P. Sapsis and Petros Koumoutsakos
+[3] P.R. Vlachas, W. Byeon, Z.Y. Wan, T.P. Sapsis, and P. Koumoutsakos *Data-driven forecasting of high-dimensional chaotic systems with long short-term memory networks.*
 Proceedings of the Royal Society A: Mathematical, Physical and Engineering Sciences 474 (2213), 2018
 
 
