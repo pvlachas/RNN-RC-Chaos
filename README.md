@@ -4,7 +4,6 @@ This project contains minimal implementations of RNN architectures trained with 
 - Long short-term memory **(LSTM)** trained with BPTT
 - **Unitary** RNNs trained with BPTT
 - Reservoir computers **(RC)** or Echo-state-networks **(ESN)**
-- Deep reservoir computers **(Deep-RC)** or  **(Deep-ESN)** (private - ask for permission from pvlachas@ethz.ch)
 - Multilayered perceptron (feedforward MLP) based on a windowing approach.
 
 Moreover, spatial parallelization of the aforementioned models are implemented according to [1].
@@ -62,7 +61,7 @@ You can then navigate to the folder ./Results/Lorenz3D and check the different o
 
 ## Contact info
 
-This code was developed in the CSE-lab.
+This code was developed in the [CSE-lab](https://www.cse-lab.ethz.ch).
 For questions or to get in contact please refer to pvlachas@ethz.ch.
 
 ## Acknowledgments
