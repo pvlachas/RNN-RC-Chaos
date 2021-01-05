@@ -60,10 +60,10 @@ After running the command, you will see at the terminal output the training/test
 You can then navigate to the folder ./Results/Lorenz3D and check the different outputs of each model.
 
 
-## Note
+## Contact info
 
-This is only a minimal version of the code under development in the CSE-lab.
-Please contact pvlachas@ethz.ch if you want to get informed, take a look at the latest version, with more features, models and capabilities.
+This code was developed in the CSE-lab.
+For questions or to get in contact please refer to pvlachas@ethz.ch.
 
 
 ## Relevant Publications
