@@ -25,7 +25,7 @@ python3 -m venv venv-RNN-RC-Chaos
 ```
 Then activate the virtual environment:
 ```
-source venv-RNN-RC-Chaos/bin/activate
+source ~/venv-RNN-RC-Chaos/bin/activate
 ```
 Install a version of tensorflow (paper was compiled with version 1.11, which may no longer be available), here we also tested a more recent verion 1.14, (apart from warnings the code should run fine):
 ```
@@ -36,6 +36,36 @@ Install the rest of the required packages with:
 pip3 install matplotlib sklearn psutil mpi4py
 ```
 The code is ready to run, you can test the following demo.
+
+
+## Parallel architectures
+
+Parallelized networks that take advantage of the local interactions in the state space employ MPI communication.
+After installing an MPI library (open-mpi or mpich), the mpi4py library can be installed with:
+```
+pip3 install mpi4py
+```
+
+
+## Virtual environment used in the paper
+
+The code to get the exact environment (no mpi4py/parallel models yet) used in the paper is:
+```
+pip install virtualenv
+virtualenv venv-RNN-RC-Chaos --python=python3.7.3
+source ~/venv-RNN-RC-Chaos/bin/activate
+pip3 install -r requirements.txt
+```
+In macOs to install mpi4py:
+```
+source ~/venv-RNN-RC-Chaos/bin/activate
+pushd /tmp
+rm -f tmp.c && touch tmp.c
+xcrun -sdk macosx clang -arch x86_64 -c tmp.c
+export OMPI_CC=xcrun
+export MPICH_CC=xcrun
+pip install --no-cache-dir mpi4py
+```
 
 
 ## Datasets
