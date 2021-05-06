@@ -25,7 +25,7 @@ python3 -m venv venv-RNN-RC-Chaos
 ```
 Then activate the virtual environment:
 ```
-source ~/venv-RNN-RC-Chaos/bin/activate
+source ./venv-RNN-RC-Chaos/bin/activate
 ```
 Install a version of tensorflow (paper was compiled with version 1.11, which may no longer be available), here we also tested a more recent verion 1.14, (apart from warnings the code should run fine):
 ```
@@ -53,12 +53,12 @@ The code to get the exact environment (no mpi4py/parallel models yet) used in th
 ```
 pip install virtualenv
 virtualenv venv-RNN-RC-Chaos --python=python3.7.3
-source ~/venv-RNN-RC-Chaos/bin/activate
+source ./venv-RNN-RC-Chaos/bin/activate
 pip3 install -r requirements.txt
 ```
 In macOs to install mpi4py:
 ```
-source ~/venv-RNN-RC-Chaos/bin/activate
+source ./venv-RNN-RC-Chaos/bin/activate
 pushd /tmp
 rm -f tmp.c && touch tmp.c
 xcrun -sdk macosx clang -arch x86_64 -c tmp.c
